@@ -1,4 +1,4 @@
-#header {
+header {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -8,7 +8,7 @@
 #header-content--wrapper {
   display: flex;
   justify-content: center;
-  margin: 3rem 0;
+  margin: 5rem 0;
 }
 
 #header-content--left {
@@ -26,26 +26,26 @@
   height: 500px;
 }
 
-#header h1 {
+header h1 {
   font-size: 4em;
   font-family: sans-serif;
   color: var(--text2);
 }
 
-#header h2 {
+header h2 {
   font-size: 2em;
   color: var(--blue1);
 }
 
-#header #break-line {
+header #break-line {
   width: 150px;
   height: 15px;
   background-color: var(--blue2);
-  margin: 2rem 0 1rem 0;
+  margin: 2rem 0 1.25rem 0;
   border-radius: 0px 15px;
 }
 
-#header p {
+header p {
   color: var(--text1);
   font-size: 1.2em;
 }

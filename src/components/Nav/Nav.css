@@ -1,28 +1,28 @@
-#navbar {
+nav {
   margin-top: 2rem;
   width: 90%;
   background-color: var(--blue1);
   border-radius: 1rem;
 }
 
-#navbar ul {
+nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
 }
 
-#navbar li {
+nav li {
   padding: 1.5rem 2.5rem;
 }
 
-#navbar a {
+nav a {
   text-decoration: none;
   font-size: 1.35em;
   color: var(--text2);
 }
 
-#navbar a:hover {
+nav a:hover {
   color: var(--dark2);
   transition: all 0.2s ease-in-out;
 }
