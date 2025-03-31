@@ -2,7 +2,7 @@ import './Nav.css';
 
 export default function Nav() {
   return (
-    <nav id='nav'>
+    <nav id='navbar'>
       <ul>
         <li>
           <a href=''>Home</a>

@@ -1,0 +1,47 @@
+@media screen and (max-width: 1400px) {
+  #header-content--right img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #header-content--right img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #header h1 {
+    font-size: 3em;
+  }
+
+  #header h2 {
+    font-size: 1.5em;
+  }
+
+  #header p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #header-content--wrapper {
+    flex-direction: column;
+  }
+
+  #header-content--right img {
+    height: 250px;
+  }
+
+  #header-content--right {
+    justify-content: center;
+  }
+
+  #header-content--left {
+    margin-right: 0;
+  }
+
+  #header-content--left {
+    margin-bottom: 2rem;
+  }
+}
