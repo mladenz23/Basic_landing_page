@@ -1,0 +1,28 @@
+#nav {
+  margin-top: 2rem;
+  width: 90%;
+  background-color: var(--blue1);
+  border-radius: 1rem;
+}
+
+#nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+#nav li {
+  padding: 1.5rem 2.5rem;
+}
+
+#nav a {
+  text-decoration: none;
+  font-size: 1.35em;
+  color: var(--text2);
+}
+
+#nav a:hover {
+  color: var(--dark2);
+  transition: all 0.2s ease-in-out;
+}
